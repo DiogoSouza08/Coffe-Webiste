@@ -1,0 +1,44 @@
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .menu-toggle:focus + .menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+  }
+  .menu-toggle:focus + .menu ul {
+    flex-direction: column;
+  }
+  .menu-toggle:focus + .menu li {
+    margin: 10px 0;
+  }
+  .menu-toggle:focus + .menu a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 425px) {
+  .container-slogan1 {
+    font-size: 4vw;
+    z-index: 999;
+    top: 60%;
+    width: 90%;
+  }
+  .coffe-img {
+    width: 95%;
+  }
+  .btn {
+    top: 120%;
+    padding: 3% 38%;
+    font-size: 4.8vw;
+  }
+}/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,139 @@
+/* Variáveis */
+$fonte-principal: 'Poppins', sans-serif;
+$cor-primaria: #35160b;
+
+/* Reset */
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #fffbf3;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $cor-primaria;
+    color: #fff;
+    padding: 30px;
+  }
+    
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      font-family: $fonte-principal;
+    }
+  
+    .menu {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      font-family: $fonte-principal;
+      
+      ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        
+        li {
+          margin: 0 30px;
+          font-size: 18px;
+          list-style: none;
+          a {
+            color: #fff;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    .menu-toggle {
+        display: none;
+        font-size: 24px;
+        background-color: transparent;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+      }
+   
+    .container-slogan1{
+      position: absolute;
+      width: 52%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      font-family: $fonte-principal;
+      font-size: 2.2vw;
+      color: $cor-primaria;
+      left: 6%;
+      top: 30%;
+      
+    }
+
+
+    .container-coffe-img{
+      width: 100%;
+      height: auto;
+      position: absolute;
+      justify-content: end;
+      display: flex;
+      
+    }
+
+    .coffe-img{
+      width: 38%;
+      position: relative;
+    }
+
+    
+    .btn {
+      background-color: $cor-primaria;
+      padding: 2% 10%;
+      margin: 10px; 
+      border-radius: 25px; 
+      color: #fff;
+      font-size: 1.2vw;
+      border: none;
+      top: 107%;
+      position: absolute;
+      box-shadow: 0px 4px 4px $cor-primaria;
+      font-family: $fonte-principal;
+      
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
