@@ -1,6 +1,8 @@
 /* Variáveis */
 $fonte-principal: 'Poppins', sans-serif;
+$fonte-secundaria:'Lobster', cursive;
 $cor-primaria: #35160b;
+$cor-secundaria: #FCE5B8;
 
 /* Reset */
 *{
@@ -117,9 +119,10 @@ header {
       height: auto;
       position: absolute;
       top: 120%;
-      left: 5%;
+      left: 2%;
       font-family: $fonte-principal;
-      
+      justify-content: center;
+      align-items: center;
     }
     
     .ambiente{
@@ -164,6 +167,13 @@ header {
       margin: 0;
       font-size: 1.2vw;
       color: #6c757d;
+    }
+    .titulo-categoria-sobre-nos{
+      position: absolute;
+      font-size: 5vw;
+      color: $cor-primaria;
+      top: -23%;
+      font-family: $fonte-secundaria;
     }
 
 
