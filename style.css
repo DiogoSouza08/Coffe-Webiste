@@ -107,8 +107,10 @@ header {
   height: auto;
   position: absolute;
   top: 120%;
-  left: 5%;
+  left: 2%;
   font-family: "Poppins", sans-serif;
+  justify-content: center;
+  align-items: center;
 }
 
 .ambiente {
@@ -153,4 +155,12 @@ header {
   margin: 0;
   font-size: 1.2vw;
   color: #6c757d;
+}
+
+.titulo-categoria-sobre-nos {
+  position: absolute;
+  font-size: 5vw;
+  color: #35160b;
+  top: -23%;
+  font-family: "Lobster", cursive;
 }/*# sourceMappingURL=style.css.map */
