@@ -157,10 +157,70 @@ header {
   color: #6c757d;
 }
 
-.titulo-categoria-sobre-nos {
+.titulo-categoria {
   position: absolute;
   font-size: 5vw;
   color: #35160b;
   top: -23%;
   font-family: "Lobster", cursive;
+}
+
+.container-menu {
+  width: auto;
+  height: auto;
+  top: 233%;
+  position: relative;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 265px;
+  height: auto;
+  margin: 15px;
+}
+.img:nth-child(even) {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.titulo-categoria-menu {
+  position: absolute;
+  font-size: 5vw;
+  color: #35160b;
+  top: -15%;
+  font-family: "Lobster", cursive;
+}
+
+.btn-menu-container {
+  display: flex;
+  width: 100%;
+  top: 107%;
+  position: absolute;
+  background-color: #FCE5B8;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-menu {
+  background-color: #35160b;
+  padding: 1.5% 4%;
+  margin: 10px;
+  border-radius: 35px;
+  color: #fff;
+  font-size: 1.3vw;
+  border: none;
+  position: absolute;
+  box-shadow: 0px 4px 4px #35160b;
+  font-family: "Poppins", sans-serif;
 }/*# sourceMappingURL=style.css.map */
