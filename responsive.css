@@ -29,7 +29,7 @@
 @media (max-width: 425px) and (min-height: 550px) {
   .container-slogan1 {
     font-size: 4vw;
-    top: 65%;
+    top: 60%;
     width: 90%;
     margin-top: 50%;
     z-index: 999;
@@ -47,8 +47,11 @@
     top: 110%;
   }
   .sobre-nos-container {
-    top: 178%;
+    top: 175%;
     left: 5.5%;
+  }
+  .container-menu {
+    top: 333%;
   }
   .ambiente {
     width: 100%;
@@ -60,8 +63,24 @@
   .description {
     font-size: 2.9vw;
   }
-  .titulo-categoria-sobre-nos {
+  .titulo-categoria {
     font-size: 12vw;
     top: -30%;
+  }
+  .titulo-categoria-menu {
+    font-size: 12vw;
+    top: -11%;
+  }
+  .img {
+    width: 135px;
+  }
+  .btn-menu {
+    padding: 3% 15%;
+    font-size: 4vw;
+  }
+  .btn-menu-container {
+    display: flex;
+    width: 100%;
+    top: 103%;
   }
 }/*# sourceMappingURL=responsive.css.map */
